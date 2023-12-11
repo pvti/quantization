@@ -42,3 +42,23 @@
 - **Comments:**
 
 </details>
+
+<details>
+<summary><a href="https://www.youtube.com/watch?v=MK4k64vY3xo&ab_channel=MITHANLab" target="_blank"><strong>3. EfficientML.ai Lecture 5 - Quantization</strong></a></summary>
+
+- **TLDR:** fundamental.
+- **Definitions:**
+    - Quantization is the process of constraining an input from a continuous or otherwise large set of values (such as the real numbers) to a discrete set (such as the integers).
+    - The difference between an input value and its quantized value
+    is referred to as quantization error.
+    <p align="center" width="100%">
+    <img src="assets\quantization error.png" width="40%" height="50%">
+    </p>
+- **Categorization:**
+    - K-Means-Based Quantization: apply quantization-aware training.
+    - Linear Quantization: apply integer-only inference.
+- **Comments:**
+    - Notebook: https://colab.research.google.com/drive/1z0D3pBb3uy3VvK0Lu01d5C_Sq1j7d-rt?usp=sharing
+    - Solution: https://github.com/yifanlu0227/MIT-6.5940/tree/main
+
+</details>
