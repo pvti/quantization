@@ -43,6 +43,7 @@
   - Why $0.1\%$ salaient weights? How to define the portion of salient weight? Should we make it adaptive  (*e.g.,* per layer)
   - How do we select salient channels? Anything else better than activation distribution?
   - Any optimization techniques without mixed precision
+  - **Decompose (*e.g.,* SVD, which (weight, activation, gradient), in which data form) then quantize factor matrices.**
 
 </details>
 
