@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: 'Awesome Quantization'
+type: generic
+message: >-
+  If you find this work useful, please consider citing it.
+authors:
+  - family-names: Pham
+    given-names: Van Tien
+  
+identifiers:
+  - type: misc
+    value: 'https://github.com/pvtien96/quantization'
+    description: url
+url: 'https://github.com/pvtien96/quantization'
+abstract: >-
+  A curated list of quantization resources for network compression and acceleration.
+keywords:
+  - network compression
+  - quantization
+  - tinyML
+  - large language models
+license: CC-BY-SA-4.0
+version: '0.1'
+date-released: '2023-12-12'
