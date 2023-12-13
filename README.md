@@ -78,6 +78,9 @@
 - **Categorization:**
     - K-Means-Based Quantization: apply quantization-aware training.
     - Linear Quantization: apply integer-only inference.
+    <p align="center" width="100%">
+    <img src="assets\kmeans_vs_linear_quantization.png" width="40%" height="50%">
+    </p>
 - **Comments:**
     - Notebook: https://colab.research.google.com/drive/1z0D3pBb3uy3VvK0Lu01d5C_Sq1j7d-rt?usp=sharing
     - Solution: https://github.com/yifanlu0227/MIT-6.5940/tree/main
