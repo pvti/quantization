@@ -115,9 +115,13 @@
     <img src="assets\accuracy_vs_compression.png" width="80%" height="50%">
   </p>
 - **Limitations:**
+  - only save storage, doesn't accelerate training/inference speed
+  - complicated implementation
 - **Comments:** hybrid compression.
 
 </details>
 
 ## :computer: Repositories
 - https://github.com/Zhen-Dong/Awesome-Quantization-Papers
+- https://github.com/htqin/awesome-model-quantization
+- https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey
