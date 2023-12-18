@@ -149,3 +149,5 @@
 - https://github.com/Zhen-Dong/Awesome-Quantization-Papers
 - https://github.com/htqin/awesome-model-quantization
 - https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey
+- https://github.com/HuangOwen/Awesome-LLM-Compression
+- https://github.com/intel/neural-compressor/blob/master/docs/source/quantization.md
