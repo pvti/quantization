@@ -132,7 +132,6 @@
 
 </details>
 
-
 <details>
 <summary><a href="https://arxiv.org/abs/2106.09685" target="_blank"><strong>6. LoRA: Low-Rank Adaptation of Large Language Models</strong></a></summary>
 
@@ -145,6 +144,7 @@
 - **Comments:**: foundation paper.
 
 </details>
+
 ## :computer: Repositories
 - https://github.com/Zhen-Dong/Awesome-Quantization-Papers
 - https://github.com/htqin/awesome-model-quantization
