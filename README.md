@@ -154,6 +154,19 @@
 
 </details>
 
+<details>
+<summary><a href="https://arxiv.org/abs/2402.15319" target="_blank"><strong>7. GPTVQ: The Blessing of Dimensionality for LLM Quantization</strong></a></summary>
+
+- **TLDR:**
+- **Abstract:** In this work we show that the size versus accuracy trade-off of neural network quantization can be significantly improved by increasing the quantization dimensionality. We propose the GPTVQ method, a new fast method for post-training vector quantization (VQ) that scales well to Large Language Models (LLMs). Our method interleaves quantization of one or more columns with updates to the remaining unquantized weights, using information from the Hessian of the per-layer output reconstruction MSE. Quantization codebooks are initialized using an efficient data-aware version of the EM algorithm. The codebooks are then updated, and further compressed by using integer quantization and SVD-based compression. GPTVQ establishes a new state-of-the art in the size vs accuracy trade-offs on a wide range of LLMs such as Llama-v2 and Mistral. Furthermore, our method is efficient: on a single H100 it takes between 3 and 11 hours to process a Llamav2-70B model, depending on quantization setting. Lastly, with on-device timings for VQ decompression on a mobile CPU we show that VQ leads to improved latency compared to using a 4-bit integer format.
+- **What:**
+- **Methodology:**
+- **Conclusions:**
+- **Limitations:**
+- **Comments:**: SVD.
+
+</details>
+
 ## :computer: Repositories
 - https://github.com/Zhen-Dong/Awesome-Quantization-Papers
 - https://github.com/htqin/awesome-model-quantization
