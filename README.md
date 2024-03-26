@@ -31,6 +31,18 @@
 
 ## :clipboard: Research Papers
 <details>
+<summary><a href="https://arxiv.org/abs/2309.05516" target="_blank"><strong>10. Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs</strong></a></summary>
+
+- **TLDR:**
+- **Abstract:** Large Language Models (LLMs) have proven their exceptional capabilities in performing language-related tasks. However, their deployment poses significant challenges due to their considerable memory and storage requirements. In response to this issue, weight-only quantization, particularly 3 and 4-bit weight-only quantization, has emerged as one of the most viable solutions. As the number of bits decreases, the quantization grid broadens, thus emphasizing the importance of up and down rounding. While previous studies have demonstrated that fine-tuning up and down rounding with the addition of perturbations can enhance accuracy in some scenarios, our study is driven by the precise and limited boundary of these perturbations, where only the threshold for altering the rounding value is of significance. Consequently, we propose a concise and highly effective approach for optimizing the weight rounding task. Our method, named SignRound, involves lightweight block-wise tuning using signed gradient descent, enabling us to achieve outstanding results within 400 steps. SignRound competes impressively against recent methods without introducing additional inference overhead.
+- **What:**
+- **Methodology:**
+- **Conclusions:**
+- **Limitations:**
+- **Comments:**: Contaning a comprehensive comparison.
+
+</details>
+<details>
 <summary><a href="https://arxiv.org/abs/2210.17323" target="_blank"><strong>9. GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers</strong></a></summary>
 
 - **TLDR:**
