@@ -31,6 +31,34 @@
 
 ## :clipboard: Research Papers
 <details>
+<summary><a href="https://arxiv.org/abs/2204.12322" target="_blank"><strong>14. RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization</strong></a></summary>
+
+- **Abstract:** We introduce a Power-of-Two low-bit post-training quantization(PTQ) method for deep neural network that meets hardware requirements and does not call for long-time retraining. Power-of-Two quantization can convert the multiplication introduced by quantization and dequantization to bit-shift that is adopted by many efficient accelerators. However, the Power-of-Two scale factors have fewer candidate values, which leads to more rounding or clipping errors. We propose a novel Power-of-Two PTQ framework, dubbed RAPQ, which dynamically adjusts the Power-of-Two scales of the whole network instead of statically determining them layer by layer. It can theoretically trade off the rounding error and clipping error of the whole network. Meanwhile, the reconstruction method in RAPQ is based on the BN information of every unit. Extensive experiments on ImageNet prove the excellent performance of our proposed method. Without bells and whistles, RAPQ can reach accuracy of 65% and 48% on ResNet-18 and MobileNetV2 respectively with weight INT2 activation INT4. We are the first to propose the more constrained but hardware-friendly Power-of-Two quantization scheme for low-bit PTQ specially and prove that it can achieve nearly the same accuracy as SOTA PTQ method. The code was released.
+- **Comments:** [Code](https://github.com/BillAmihom/RAPQ)
+
+</details>
+<details>
+<summary><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710657.pdf" target="_blank"><strong>13. Non-uniform Step Size Quantization for Accurate Post-training Quantization</strong></a></summary>
+
+- **Abstract:** Quantization is a very effective optimization technique to reduce hardware cost and memory footprint of deep neural network (DNN) accelerators. In particular, post-training quantization (PTQ) is often preferred as it does not require a full dataset or costly retraining. However, performance of PTQ lags significantly behind that of quantization-aware training especially for low-precision networks (4-bit). In this paper we propose a novel PTQ scheme (Code will be publicly available at https://github.com/sogh5/SubsetQ) to bridge the gap, with minimal impact on hardware cost. The main idea of our scheme is to increase arithmetic precision while retaining the same representational precision. The excess arithmetic precision enables us to better match the input data distribution while also presenting a new optimization problem, to which we propose a novel search-based solution. Our scheme is based on logarithmic-scale quantization, which can help reduce hardware cost through the use of shifters instead of multipliers. Our evaluation results using various DNN models on challenging computer vision tasks (image classification, object detection, semantic segmentation) show superior accuracy compared with the state-of-the-art PTQ methods at various low-bit precisions.
+- **Comments:**
+
+</details>
+<details>
+<summary><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Oh_Automated_Log-Scale_Quantization_for_Low-Cost_Deep_Neural_Networks_CVPR_2021_paper.pdf" target="_blank"><strong>12. Automated Log-Scale Quantization for Low-Cost Deep Neural Networks</strong></a></summary>
+
+- **Abstract:** Quantization plays an important role in deep neural network (DNN) hardware. In particular, logarithmic quantization has multiple advantages for DNN hardware implementations, and its weakness in terms of lower performance at high precision compared with linear quantization has been recently remedied by what we call selective two-word logarithmic quantization (STLQ). However, there is a lack of training methods designed for STLQ or even logarithmic quantization in general. In this paper we propose a novel STLQ-aware training method, which significantly out-performs the previous state-of-the-art training method for STLQ. Moreover, our training results demonstrate that with our new training method, STLQ applied to weight parameters of ResNet-18 can achieve the same level of performance as state-of-the-art quantization method, APoT, at 3-bit precision. We also apply our method to various DNNs in image enhancement and semantic segmentation, showing competitive results.
+- **Comments:**
+
+</details>
+<details>
+<summary><a href="https://arxiv.org/abs/1909.13144" target="_blank"><strong>11. Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks</strong></a></summary>
+
+- **Abstract:** We propose Additive Powers-of-Two~(APoT) quantization, an efficient non-uniform quantization scheme for the bell-shaped and long-tailed distribution of weights and activations in neural networks. By constraining all quantization levels as the sum of Powers-of-Two terms, APoT quantization enjoys high computational efficiency and a good match with the distribution of weights. A simple reparameterization of the clipping function is applied to generate a better-defined gradient for learning the clipping threshold. Moreover, weight normalization is presented to refine the distribution of weights to make the training more stable and consistent. Experimental results show that our proposed method outperforms state-of-the-art methods, and is even competitive with the full-precision models, demonstrating the effectiveness of our proposed APoT quantization. For example, our 4-bit quantized ResNet-50 on ImageNet achieves 76.6% top-1 accuracy without bells and whistles; meanwhile, our model reduces 22% computational cost compared with the uniformly quantized counterpart.
+- **Comments:** [Code](https://github.com/yhhhli/APoT_Quantization)
+
+</details>
+<details>
 <summary><a href="https://arxiv.org/abs/2309.05516" target="_blank"><strong>10. Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs</strong></a></summary>
 
 - **TLDR:**
@@ -39,7 +67,7 @@
 - **Methodology:**
 - **Conclusions:**
 - **Limitations:**
-- **Comments:**: Contaning a comprehensive comparison.
+- **Comments:** Contaning a comprehensive comparison.
 
 </details>
 <details>
@@ -51,7 +79,7 @@
 - **Methodology:**
 - **Conclusions:**
 - **Limitations:**
-- **Comments:**: Foundation.
+- **Comments:** Foundation.
 
 </details>
 
@@ -64,7 +92,7 @@
 - **Methodology:**
 - **Conclusions:**
 - **Limitations:**
-- **Comments:**: SVD.
+- **Comments:** SVD.
 
 </details>
 
@@ -195,6 +223,7 @@
 
 
 ## :computer: Repositories
+- https://github.com/TUIlmenauAMS/ADSP_Tutorials
 - https://github.com/Zhen-Dong/Awesome-Quantization-Papers
 - https://github.com/htqin/awesome-model-quantization
 - https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey
