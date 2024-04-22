@@ -240,3 +240,21 @@
 - https://github.com/intel/neural-compressor/blob/master/docs/source/quantization.md
 - https://github.com/AutoGPTQ/AutoGPTQ
 - https://github.com/IST-DASLab
+
+
+## :herb: Category
+### Post Training Quantization (PTQ)
+| Paper                                                        | Code      | Venue      | Year |
+| ------------------------------------------------------------ | ----------| ---------- | ---- |
+| [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) |[![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| Neurocomputing | 2024 |
+| [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) |[![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 |
+| [Genie: Show Me the Data for Quantization](https://arxiv.org/abs/2212.04780) |[![GitHub Repo stars](https://img.shields.io/github/stars/SamsungLabs/Genie)](https://github.com/SamsungLabs/Genie)| CVPR | 2023 |
+| [PowerQuant: Automorphism Search for Non-Uniform Quantization](https://arxiv.org/abs/2301.09858) || ICLR | 2023 |
+| [O-2A: Outlier-Aware Compression for 8-bit Post-Training Quantization Model](https://ieeexplore.ieee.org/abstract/document/10237192) || IEEE Access | 2023 |
+| [Post-training Quantization for Neural Networks with Provable Guarantees](https://arxiv.org/abs/2201.11113) |[![GitHub Repo stars](https://img.shields.io/github/stars/YixuanSeanZhou/Quantized_Neural_Nets)](https://github.com/YixuanSeanZhou/Quantized_Neural_Nets)| SIMODS | 2023 |
+| [RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization](https://arxiv.org/abs/2212.07048) |[![GitHub Repo stars](https://img.shields.io/github/stars/BillAmihom/RAPQ)](https://github.com/BillAmihom/RAPQ)| IJCAI | 2022 |
+| [QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization](https://arxiv.org/abs/2203.05740) |[![GitHub Repo stars](https://img.shields.io/github/stars/wimh966/QDrop)](https://github.com/wimh966/QDrop)| ICLR | 2022 |
+| [Mr.BiQ: Post-Training Non-Uniform Quantization based on Minimizing the Reconstruction Error](https://ieeexplore.ieee.org/document/9879931) || CVPR | 2022 |
+| [FP8 Quantization: The Power of the Exponent](https://arxiv.org/abs/2208.09225) |[![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/FP8-quantization)](https://github.com/Qualcomm-AI-research/FP8-quantization)| NeurIPS | 2022 |
+| [Efficient Adaptive Activation Rounding for Post-Training Quantization](https://arxiv.org/abs/2208.11945) || Arxiv | 2022 |
+| [BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction](https://arxiv.org/abs/2102.05426) |[![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/BRECQ)](https://github.com/yhhhli/BRECQ)| ICLR | 2021 |
