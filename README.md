@@ -251,8 +251,8 @@ Abbreviation:
 - W: Weight
 - A: Activation
 
-| Paper                                                        | Code      | Venue      | Year | Type | Note |
-| ------------------------------------------------------------ | ----------| ---------- | ---- | :--: | ---- |
+| Paper                                                        | Venue      | Year | Type | Note |
+| ------------------------------------------------------------ | ---------- | ---- | :--: | ---- |
 | [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| NC | 2024 | PTQ |
 | [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 | PTQ | Uniform |
 | [Genie: Show Me the Data for Quantization](https://arxiv.org/abs/2212.04780) [![GitHub Repo stars](https://img.shields.io/github/stars/SamsungLabs/Genie)](https://github.com/SamsungLabs/Genie)| CVPR | 2023 |
