@@ -290,10 +290,11 @@ Abbreviation:
 ### Quantization Aware Training (QAT)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
 | [EQ-Net: Elastic Quantization Neural Networks](https://arxiv.org/abs/2308.07650) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2023 |
 | [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) | IEEE Access | 2023 | PoT |
 | [Overcoming Oscillations in Quantization-Aware Training](https://arxiv.org/abs/2203.11086) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/oscillations-qat)](https://github.com/Qualcomm-AI-research/oscillations-qat)| ICML | 2022 |
-| [Once Quantization-Aware Training: High Performance Extremely Low-bit Architecture Search](https://arxiv.org/abs/2010.04354) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2021 |
+| [Once Quantization-Aware Training: High Performance Extremely Low-bit Architecture Search](https://arxiv.org/abs/2010.04354) [![GitHub Repo stars](https://img.shields.io/github/stars/LaVieEnRoseSMZ/OQA)](https://github.com/LaVieEnRoseSMZ/OQA)| ICCV | 2021 |
 | [Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/APoT_Quantization)](https://github.com/yhhhli/APoT_Quantization)| ICLR | 2020 | PoT |
 
 ### Quantization & Tensor Decomposition
