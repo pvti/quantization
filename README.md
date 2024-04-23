@@ -296,7 +296,10 @@ Abbreviation:
 ### Quantization & Tensor Decomposition
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
-| [Towards Super Compressed Neural Networks for Object Identification: Quantized Low-Rank Tensor Decomposition with Self-Attention](https://www.mdpi.com/2079-9292/13/7/1330) | Electronics | 202 |
+| [LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning](https://arxiv.org/abs/2311.12023) [![GitHub Repo stars](https://img.shields.io/github/stars/HanGuo97/lq-lora)](https://github.com/HanGuo97/lq-lora)| ICLR | 2024 |
+| [DQ-STP: An Efficient Sparse On-Device Training Processor Based on Low-Rank Decomposition and Quantization for DNN](https://ieeexplore.ieee.org/abstract/document/10443594) | TCAS | 2024 |
+| [Towards Super Compressed Neural Networks for Object Identification: Quantized Low-Rank Tensor Decomposition with Self-Attention](https://www.mdpi.com/2079-9292/13/7/1330) | Electronics | 2024 |
+| [Compressed neural architecture utilizing dimensionality reduction and quantization](https://link.springer.com/article/10.1007/s10489-022-03221-z) | Applied Intelligence | 2023 | QAT, PCA, k-means |
 | [Quantization Aware Factorization for Deep Neural Network Compression](https://arxiv.org/abs/2308.04595) | Arxiv | 2023 | QAT |
 | [Compression of Deep Neural Networks based on quantized tensor decomposition to implement on reconfigurable hardware platforms](https://www.sciencedirect.com/science/article/pii/S089360802200065X) | Neural Networks | 2022 | QAT, PoT |
 | [Quantized Sparse Weight Decomposition for Neural Network Compression](https://arxiv.org/abs/2207.11048) | Arxiv | 2022 |
