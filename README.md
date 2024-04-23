@@ -49,6 +49,7 @@
 <summary><a href="https://arxiv.org/abs/2308.04595" target="_blank"><strong>16. Quantization Aware Factorization for Deep Neural Network Compression</strong></a></summary>
 
 - **Abstract:** Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks. Due to memory and power consumption limitations of mobile or embedded devices, the quantization step is usually necessary when pre-trained models are deployed. A conventional post-training quantization approach applied to networks with decomposed weights yields a drop in accuracy. This motivated us to develop an algorithm that finds tensor approximation directly with quantized factors and thus benefit from both compression techniques while keeping the prediction quality of the model. Namely, we propose to use Alternating Direction Method of Multipliers (ADMM) for Canonical Polyadic (CP) decomposition with factors whose elements lie on a specified quantization grid. We compress neural network weights with a devised algorithm and evaluate it's prediction quality and performance. We compare our approach to state-of-the-art post-training quantization methods and demonstrate competitive results and high flexibility in achiving a desirable quality-performance tradeoff.
+- **Limitations:** experiments are not well designed. High accuracy degradation. Lack of comprehensive comparison. Only applicable to weights.
 - **Comments:**
 
 </details>
@@ -300,9 +301,7 @@ Abbreviation:
 | [DQ-STP: An Efficient Sparse On-Device Training Processor Based on Low-Rank Decomposition and Quantization for DNN](https://ieeexplore.ieee.org/abstract/document/10443594) | TCAS | 2024 |
 | [Towards Super Compressed Neural Networks for Object Identification: Quantized Low-Rank Tensor Decomposition with Self-Attention](https://www.mdpi.com/2079-9292/13/7/1330) | Electronics | 2024 |
 | [Compressed neural architecture utilizing dimensionality reduction and quantization](https://link.springer.com/article/10.1007/s10489-022-03221-z) | Applied Intelligence | 2023 | QAT, PCA, k-means |
-| [Quantization Aware Factorization for Deep Neural Network Compression](https://arxiv.org/abs/2308.04595) | Arxiv | 2023 | QAT |
+| [Quantization Aware Factorization for Deep Neural Network Compression](https://arxiv.org/abs/2308.04595) | Arxiv | 2023 | PTQ |
 | [Compression of Deep Neural Networks based on quantized tensor decomposition to implement on reconfigurable hardware platforms](https://www.sciencedirect.com/science/article/pii/S089360802200065X) | Neural Networks | 2022 | QAT, PoT |
 | [Quantized Sparse Weight Decomposition for Neural Network Compression](https://arxiv.org/abs/2207.11048) | Arxiv | 2022 |
 | [QTTNet: Quantized tensor train neural networks for 3D object and video recognition](https://www.sciencedirect.com/science/article/pii/S0893608021002306) | Neural Networks | 2021 | QAT |
-
-
