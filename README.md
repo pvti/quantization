@@ -260,33 +260,46 @@
 
 ## :herb: Category
 Abbreviation:
-- PTQ: Post Training Quantization
-- QAT: Quantization Aware Training
 - PoT: Power-of-Two
 - W: Weight
 - A: Activation
-
-| Paper                                                        | Venue      | Year | Type | Note |
-| ------------------------------------------------------------ | ---------- | ---- | :--: | ---- |
-| [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| NC | 2024 | PTQ |
-| [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 | PTQ | Uniform |
+### Post Training Quantization (PTQ)
+| Paper                                                        | Venue      | Year | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| NC | 2024 |
+| [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 | Uniform |
 | [Adaptive Data-Free Quantization](https://arxiv.org/abs/2303.06869) [![GitHub Repo stars](https://img.shields.io/github/stars/hfutqian/AdaDFQ)](https://github.com/hfutqian/AdaDFQ)| CVPR | 2023 |
-| [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906) [![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/MRECG)](https://github.com/bytedance/MRECG)| CVPR | 2023 | PTQ |
-| [Bit-shrinking: Limiting Instantaneous Sharpness for Improving Post-training Quantization](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Bit-Shrinking_Limiting_Instantaneous_Sharpness_for_Improving_Post-Training_Quantization_CVPR_2023_paper.pdf)| CVPR | 2023 | PTQ |
+| [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906) [![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/MRECG)](https://github.com/bytedance/MRECG)| CVPR | 2023 |
+| [Bit-shrinking: Limiting Instantaneous Sharpness for Improving Post-training Quantization](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Bit-Shrinking_Limiting_Instantaneous_Sharpness_for_Improving_Post-Training_Quantization_CVPR_2023_paper.pdf)| CVPR | 2023 |
 | [Genie: Show Me the Data for Quantization](https://arxiv.org/abs/2212.04780) [![GitHub Repo stars](https://img.shields.io/github/stars/SamsungLabs/Genie)](https://github.com/SamsungLabs/Genie)| CVPR | 2023 |
-| [PowerQuant: Automorphism Search for Non-Uniform Quantization](https://arxiv.org/abs/2301.09858) | ICLR | 2023 | PTQ | Exponent |
-| [O-2A: Outlier-Aware Compression for 8-bit Post-Training Quantization Model](https://ieeexplore.ieee.org/abstract/document/10237192) | IEEE Access | 2023 | PTQ |
-| [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) | IEEE Access | 2023 | QAT | PoT |
-| [Post-training Quantization for Neural Networks with Provable Guarantees](https://arxiv.org/abs/2201.11113) [![GitHub Repo stars](https://img.shields.io/github/stars/YixuanSeanZhou/Quantized_Neural_Nets)](https://github.com/YixuanSeanZhou/Quantized_Neural_Nets)| SIMODS | 2023 | PTQ |
-| [RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/BillAmihom/RAPQ)](https://github.com/BillAmihom/RAPQ)| IJCAI | 2022 | PTQ | PoT |
-| [Overcoming Oscillations in Quantization-Aware Training](https://arxiv.org/abs/2203.11086) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/oscillations-qat)](https://github.com/Qualcomm-AI-research/oscillations-qat)| ICML | 2022 | QAT |
-| [Non-uniform Step Size Quantization for Accurate Post-training Quantization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710657.pdf) [![GitHub Repo stars](https://img.shields.io/github/stars/sogh5/SubsetQ)](https://github.com/sogh5/SubsetQ)| ECCV | 2022 | PTQ |
-| [QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization](https://arxiv.org/abs/2203.05740) [![GitHub Repo stars](https://img.shields.io/github/stars/wimh966/QDrop)](https://github.com/wimh966/QDrop)| ICLR | 2022 | PTQ | Uniform |
-| [Mr.BiQ: Post-Training Non-Uniform Quantization based on Minimizing the Reconstruction Error](https://ieeexplore.ieee.org/document/9879931) | CVPR | 2022 | PTQ |
+| [PowerQuant: Automorphism Search for Non-Uniform Quantization](https://arxiv.org/abs/2301.09858) | ICLR | 2023 | Exponent |
+| [O-2A: Outlier-Aware Compression for 8-bit Post-Training Quantization Model](https://ieeexplore.ieee.org/abstract/document/10237192) | IEEE Access | 2023 |
+| [Post-training Quantization for Neural Networks with Provable Guarantees](https://arxiv.org/abs/2201.11113) [![GitHub Repo stars](https://img.shields.io/github/stars/YixuanSeanZhou/Quantized_Neural_Nets)](https://github.com/YixuanSeanZhou/Quantized_Neural_Nets)| SIMODS | 2023 |
+| [RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/BillAmihom/RAPQ)](https://github.com/BillAmihom/RAPQ)| IJCAI | 2022 | PoT |
+| [Non-uniform Step Size Quantization for Accurate Post-training Quantization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710657.pdf) [![GitHub Repo stars](https://img.shields.io/github/stars/sogh5/SubsetQ)](https://github.com/sogh5/SubsetQ)| ECCV | 2022 |
+| [QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization](https://arxiv.org/abs/2203.05740) [![GitHub Repo stars](https://img.shields.io/github/stars/wimh966/QDrop)](https://github.com/wimh966/QDrop)| ICLR | 2022 | Uniform |
+| [Mr.BiQ: Post-Training Non-Uniform Quantization based on Minimizing the Reconstruction Error](https://ieeexplore.ieee.org/document/9879931) | CVPR | 2022 |
 | [FP8 Quantization: The Power of the Exponent](https://arxiv.org/abs/2208.09225) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/FP8-quantization)](https://github.com/Qualcomm-AI-research/FP8-quantization)| NeurIPS | 2022 | | Exponent |
 | [Leveraging Inter-Layer Dependency for Post -Training Quantization](https://openreview.net/forum?id=L7n7BPTVAr3) | NeurIPS | 2022 |PTQ |
-| [Efficient Adaptive Activation Rounding for Post-Training Quantization](https://arxiv.org/abs/2208.11945) | Arxiv | 2022 | PTQ |
-| [BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction](https://arxiv.org/abs/2102.05426) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/BRECQ)](https://github.com/yhhhli/BRECQ)| ICLR | 2021 | PTQ |
-| [ZeroQ: A Novel Zero Shot Quantization Framework](https://arxiv.org/abs/2001.00281) [![GitHub Repo stars](https://img.shields.io/github/stars/amirgholami/ZeroQ)](https://github.com/amirgholami/ZeroQ)| CVPR | 2020 | PTQ |
-| [Generative Low-bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/xushoukai/GDFQ)](https://github.com/xushoukai/GDFQ)| ECCV | 2020 | PTQ |
-| [Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/APoT_Quantization)](https://github.com/yhhhli/APoT_Quantization)| ICLR | 2020 | QAT | PoT |
+| [Efficient Adaptive Activation Rounding for Post-Training Quantization](https://arxiv.org/abs/2208.11945) | Arxiv | 2022 |
+| [BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction](https://arxiv.org/abs/2102.05426) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/BRECQ)](https://github.com/yhhhli/BRECQ)| ICLR | 2021 |
+| [ZeroQ: A Novel Zero Shot Quantization Framework](https://arxiv.org/abs/2001.00281) [![GitHub Repo stars](https://img.shields.io/github/stars/amirgholami/ZeroQ)](https://github.com/amirgholami/ZeroQ)| CVPR | 2020 |
+| [Generative Low-bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/xushoukai/GDFQ)](https://github.com/xushoukai/GDFQ)| ECCV | 2020 |
+
+### Quantization Aware Training (QAT)
+| Paper                                                        | Venue      | Year | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) | IEEE Access | 2023 | PoT |
+| [Overcoming Oscillations in Quantization-Aware Training](https://arxiv.org/abs/2203.11086) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/oscillations-qat)](https://github.com/Qualcomm-AI-research/oscillations-qat)| ICML | 2022 |
+| [Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/APoT_Quantization)](https://github.com/yhhhli/APoT_Quantization)| ICLR | 2020 | PoT |
+
+### Quantization & Tensor Decomposition
+| Paper                                                        | Venue      | Year | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [Towards Super Compressed Neural Networks for Object Identification: Quantized Low-Rank Tensor Decomposition with Self-Attention](https://www.mdpi.com/2079-9292/13/7/1330) | Electronics | 202 |
+| [Quantization Aware Factorization for Deep Neural Network Compression](https://arxiv.org/abs/2308.04595) | Arxiv | 2023 | QAT |
+| [Compression of Deep Neural Networks based on quantized tensor decomposition to implement on reconfigurable hardware platforms](https://www.sciencedirect.com/science/article/pii/S089360802200065X) | Neural Networks | 2022 | QAT, PoT |
+| [Quantized Sparse Weight Decomposition for Neural Network Compression](https://arxiv.org/abs/2207.11048) | Arxiv | 2022 |
+| [QTTNet: Quantized tensor train neural networks for 3D object and video recognition](https://www.sciencedirect.com/science/article/pii/S0893608021002306) | Neural Networks | 2021 | QAT |
+
+
