@@ -260,6 +260,25 @@
 - [TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2023-fall-65940)
 - [Hardware for Machine Learning](https://inst.eecs.berkeley.edu/~ee290-2/sp24/)
 - [ECE 5545: Machine Learning Hardware and Systems](https://abdelfattah-class.github.io/ece5545/sp24)
+- [coremltools](https://apple.github.io/coremltools/docs-guides/source/quantization-overview.html#:~:text=Linear%20quantization%2C%20also%20known%20as,128%5D%2C%20and%20interpolating%20linearly.)
+
+
+## :information_source: Terminology
+- **Post Training Quantization (PTQ)** computes `scale` after network has been trained. A *representative dataset* is used to capture the distribution of activations for each activation tensor, then this distribution data is used to compute the `scale` value for each tensor. Each weight's distribution is used to compute weight `scale`. This flow is called *calibration*.
+- **Quantization Aware Training (QAT)** aims at computing scale factors during training. All weights and activations are *fake quantized* during both the forward and backward passes of training: that is, float values are rounded to mimic int8 values, but all computations are still done with floating point numbers. Thus, all the weight adjustments during training are made while *aware* of the fact that the model will ultimately be quantized; after quantizing, therefore, this method usually yields higher accuracy.
+- **Vector quantization (VQ)** quantizing continuous or discrete data into a finite set of representative vectors, known as codebook vectors or centroids.
+- **Linear quantization**, also known as **affine quantization**, maps the range of float values to a quantized range, such as the range for 8-bit integers [-127, 128], and interpolating linearly.
+- **Uniform** quantization: the signal amplitude range is divided into equal intervals, and each interval is assigned a quantization level.
+- **Non-uniform** quantization: the signal amplitude range is divided into unequal intervals, and each interval is assigned a quantization level.
+  <p align="center" width="100%">
+      <img src="assets/uniform-and-non-uniform-quantization.png" width="40%" height="50%">
+  </p>
+- **Asymmetric**: In asymmetric mode, we map the min/max in the float range to the min/max of the integer range. This is done by using a zero-point (also called quantization bias, or offset) in addition to the scale factor.
+- **Symmetric**: In symmetric mode, instead of mapping the exact min/max of the float range to the quantized range, we choose the maximum absolute value between min/max. In addition, we don't use a zero-point. So, the floating-point range we're effectively quantizing is symmetric with respect to zero, and so is the quantized range.
+  <div>
+    <img class="image" src="assets/quant_asym.png" width="48%" height="100%">
+    <img class="image" src="assets/quant_sym.png" width="48%" height="100%">
+  </div>
 
 
 ## :herb: Category
@@ -289,6 +308,7 @@ Abbreviation:
 | [BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction](https://arxiv.org/abs/2102.05426) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/BRECQ)](https://github.com/yhhhli/BRECQ)| ICLR | 2021 |
 | [ZeroQ: A Novel Zero Shot Quantization Framework](https://arxiv.org/abs/2001.00281) [![GitHub Repo stars](https://img.shields.io/github/stars/amirgholami/ZeroQ)](https://github.com/amirgholami/ZeroQ)| CVPR | 2020 |
 | [Generative Low-bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/xushoukai/GDFQ)](https://github.com/xushoukai/GDFQ)| ECCV | 2020 |
+| [Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) | CVPR | 2018 |
 
 ### Quantization Aware Training (QAT)
 | Paper                                                        | Venue      | Year | Note |
