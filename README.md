@@ -247,16 +247,16 @@
 
 
 ## :computer: Repositories
-- https://github.com/TUIlmenauAMS/ADSP_Tutorials
-- https://github.com/Zhen-Dong/Awesome-Quantization-Papers
-- https://github.com/htqin/awesome-model-quantization
-- https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey
-- https://github.com/HuangOwen/Awesome-LLM-Compression
-- https://github.com/intel/neural-compressor/blob/master/docs/source/quantization.md
-- https://github.com/AutoGPTQ/AutoGPTQ
-- https://github.com/IST-DASLab
-- https://pytorch.org/blog/quantization-in-practice/
-- https://github.com/Xilinx/brevitas
+- [Advanced Digital Signal Processing Notebooks and Tutorials](https://github.com/TUIlmenauAMS/ADSP_Tutorials) [![GitHub Repo stars](https://img.shields.io/github/stars/TUIlmenauAMS/ADSP_Tutorials)](https://github.com/TUIlmenauAMS/ADSP_Tutorials)
+- [Awesome-Quantization-Papers](https://github.com/Zhen-Dong/Awesome-Quantization-Papers) [![GitHub Repo stars](https://img.shields.io/github/stars/Zhen-Dong/Awesome-Quantization-Papers)](https://github.com/Zhen-Dong/Awesome-Quantization-Papers)
+- [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization) [![GitHub Repo stars](https://img.shields.io/github/stars/htqin/awesome-model-quantization)](https://github.com/htqin/awesome-model-quantization)
+- [Efficient Large Language Models: A Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) [![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/Efficient-LLMs-Survey)](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
+- Awesome LLM Compression [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression)](https://github.com/HuangOwen/Awesome-LLM-Compression)
+- [neural-compressor](https://github.com/intel/neural-compressor/blob/master/docs/source/quantization.md) [![GitHub Repo stars](https://img.shields.io/github/stars/intel/neural-compressor)](https://github.com/intel/neural-compressor)
+- [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) [![GitHub Repo stars](https://img.shields.io/github/stars/AutoGPTQ/AutoGPTQ)](https://github.com/AutoGPTQ/AutoGPTQ)
+- [IST Austria Distributed Algorithms and Systems Lab](https://github.com/IST-DASLab)
+- [Practical Quantization in PyTorch](https://pytorch.org/blog/quantization-in-practice/)
+- [Brevitas: neural network quantization in PyTorch](https://github.com/Xilinx/brevitas) [![GitHub Repo stars](https://img.shields.io/github/stars/Xilinx/brevitas)](https://github.com/Xilinx/brevitas)
 
 
 ## :herb: Category
