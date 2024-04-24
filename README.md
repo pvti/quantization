@@ -261,6 +261,7 @@
 - [Hardware for Machine Learning](https://inst.eecs.berkeley.edu/~ee290-2/sp24/)
 - [ECE 5545: Machine Learning Hardware and Systems](https://abdelfattah-class.github.io/ece5545/sp24)
 - [coremltools](https://apple.github.io/coremltools/docs-guides/source/quantization-overview.html#:~:text=Linear%20quantization%2C%20also%20known%20as,128%5D%2C%20and%20interpolating%20linearly.)
+- [🤗 Optimum Quantization](https://huggingface.co/docs/optimum/en/concept_guides/quantization)
 
 
 ## :information_source: Terminology
