@@ -251,12 +251,15 @@
 - [Awesome-Quantization-Papers](https://github.com/Zhen-Dong/Awesome-Quantization-Papers) [![GitHub Repo stars](https://img.shields.io/github/stars/Zhen-Dong/Awesome-Quantization-Papers)](https://github.com/Zhen-Dong/Awesome-Quantization-Papers)
 - [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization) [![GitHub Repo stars](https://img.shields.io/github/stars/htqin/awesome-model-quantization)](https://github.com/htqin/awesome-model-quantization)
 - [Efficient Large Language Models: A Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) [![GitHub Repo stars](https://img.shields.io/github/stars/AIoT-MLSys-Lab/Efficient-LLMs-Survey)](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
-- Awesome LLM Compression [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression)](https://github.com/HuangOwen/Awesome-LLM-Compression)
+- [Awesome LLM Compression](https://github.com/HuangOwen/Awesome-LLM-Compression) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression)](https://github.com/HuangOwen/Awesome-LLM-Compression)
 - [neural-compressor](https://github.com/intel/neural-compressor/blob/master/docs/source/quantization.md) [![GitHub Repo stars](https://img.shields.io/github/stars/intel/neural-compressor)](https://github.com/intel/neural-compressor)
 - [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) [![GitHub Repo stars](https://img.shields.io/github/stars/AutoGPTQ/AutoGPTQ)](https://github.com/AutoGPTQ/AutoGPTQ)
 - [IST Austria Distributed Algorithms and Systems Lab](https://github.com/IST-DASLab)
 - [Practical Quantization in PyTorch](https://pytorch.org/blog/quantization-in-practice/)
 - [Brevitas: neural network quantization in PyTorch](https://github.com/Xilinx/brevitas) [![GitHub Repo stars](https://img.shields.io/github/stars/Xilinx/brevitas)](https://github.com/Xilinx/brevitas)
+- [TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2023-fall-65940)
+- [Hardware for Machine Learning](https://inst.eecs.berkeley.edu/~ee290-2/sp24/)
+- [ECE 5545: Machine Learning Hardware and Systems](https://abdelfattah-class.github.io/ece5545/sp24)
 
 
 ## :herb: Category
