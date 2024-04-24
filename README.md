@@ -271,15 +271,15 @@
 - **Uniform** quantization: the signal amplitude range is divided into equal intervals, and each interval is assigned a quantization level.
 - **Non-uniform** quantization: the signal amplitude range is divided into unequal intervals, and each interval is assigned a quantization level.
   <p align="center" width="100%">
-      <img src="assets/uniform-and-non-uniform-quantization.png" width="40%" height="50%">
+      <img src="assets/uniform-and-non-uniform-quantization.png" width="50%" height="50%">
   </p>
 - **Asymmetric**: In asymmetric mode, we map the min/max in the float range to the min/max of the integer range. This is done by using a zero-point (also called quantization bias, or offset) in addition to the scale factor.
 - **Symmetric**: In symmetric mode, instead of mapping the exact min/max of the float range to the quantized range, we choose the maximum absolute value between min/max. In addition, we don't use a zero-point. So, the floating-point range we're effectively quantizing is symmetric with respect to zero, and so is the quantized range.
   <div>
-    <img class="image" src="assets/quant_asym.png" width="48%" height="100%">
-    <img class="image" src="assets/quant_sym.png" width="48%" height="100%">
+    <img class="image" src="assets/quant_asym.png" width="40%" height="100%">
+    <img class="image" src="assets/quant_sym.png" width="40%" height="100%">
   </div>
-
+- **Per tensor** means that all the values within the tensor are quantized the same way with the same quantization parameters. **Per channel** means that for each dimension, typically the channel dimension of a tensor, the values in the tensor are quantized with different quantization parameters. This allows for less error in converting tensors to quantized values since outlier values would only impact the channel it was in, instead of the entire Tensor.
 
 ## :herb: Category
 Abbreviation:
