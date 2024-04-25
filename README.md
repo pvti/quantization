@@ -333,3 +333,13 @@ Abbreviation:
 | [Compression of Deep Neural Networks based on quantized tensor decomposition to implement on reconfigurable hardware platforms](https://www.sciencedirect.com/science/article/pii/S089360802200065X) | Neural Networks | 2022 | QAT, PoT |
 | [Quantized Sparse Weight Decomposition for Neural Network Compression](https://arxiv.org/abs/2207.11048) | Arxiv | 2022 |
 | [QTTNet: Quantized tensor train neural networks for 3D object and video recognition](https://www.sciencedirect.com/science/article/pii/S0893608021002306) | Neural Networks | 2021 | QAT |
+
+### LLM Quantization
+| Paper                                                        | Venue      | Year | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning](https://arxiv.org/abs/2311.12023) [![GitHub Repo stars](https://img.shields.io/github/stars/HanGuo97/lq-lora)](https://github.com/HanGuo97/lq-lora)| ICLR | 2024 |
+| [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) [![GitHub Repo stars](https://img.shields.io/github/stars/mit-han-lab/llm-awq)](https://github.com/mit-han-lab/llm-awq)| MLSys | 2024 |
+| [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438) [![GitHub Repo stars](https://img.shields.io/github/stars/mit-han-lab/smoothquant)](https://github.com/mit-han-lab/smoothquant)| ICML | 2023 | PTQ |
+| [Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs](https://arxiv.org/abs/2309.05516) [![GitHub Repo stars](https://img.shields.io/github/stars/intel/auto-round)](https://github.com/intel/auto-round)| Arxiv | 2023 | PTQ |
+| [REx: Data-Free Residual Quantization Error Expansion](https://arxiv.org/abs/2203.14645) | NeurIPS | 2023 |
+| [SPIQ: Data-Free Per-Channel Static Input Quantization](https://arxiv.org/abs/2203.14642) | WACV | 2023 |
