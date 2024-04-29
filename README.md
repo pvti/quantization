@@ -317,10 +317,13 @@ Abbreviation:
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
 | [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
 | [EQ-Net: Elastic Quantization Neural Networks](https://arxiv.org/abs/2308.07650) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2023 |
+| [RUPQ: Improving low-bit quantization by equalizing relative updates of quantization parameters](https://proceedings.bmvc2023.org/307/) [![GitHub Repo stars](https://img.shields.io/github/stars/Valentin-Buchnev/RUPQ)](https://github.com/Valentin-Buchnev/RUPQ)| BMVC | 2023 |
 | [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) | IEEE Access | 2023 | PoT |
 | [Overcoming Oscillations in Quantization-Aware Training](https://arxiv.org/abs/2203.11086) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/oscillations-qat)](https://github.com/Qualcomm-AI-research/oscillations-qat)| ICML | 2022 |
 | [Once Quantization-Aware Training: High Performance Extremely Low-bit Architecture Search](https://arxiv.org/abs/2010.04354) [![GitHub Repo stars](https://img.shields.io/github/stars/LaVieEnRoseSMZ/OQA)](https://github.com/LaVieEnRoseSMZ/OQA)| ICCV | 2021 |
 | [Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/APoT_Quantization)](https://github.com/yhhhli/APoT_Quantization)| ICLR | 2020 | PoT |
+| [Learned Step Size Quantization](https://arxiv.org/abs/1902.08153) [![GitHub Repo stars](https://img.shields.io/github/stars/hustzxd/LSQuantization)](https://github.com/hustzxd/LSQuantization) [![GitHub Repo stars](https://img.shields.io/github/stars/zhutmost/lsq-net)](https://github.com/zhutmost/lsq-net)| ICLR | 2020 |
+| [LSQ+: Improving low-bit quantization through learnable offsets and better initialization](https://arxiv.org/abs/2004.09576) [![GitHub Repo stars](https://img.shields.io/github/stars/ZouJiu1/LSQplus)](https://github.com/ZouJiu1/LSQplus)| CVPRW | 2020 |
 
 ### Quantization & Tensor Decomposition
 | Paper                                                        | Venue      | Year | Note |
