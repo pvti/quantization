@@ -315,7 +315,7 @@ Abbreviation:
 ### Quantization Aware Training (QAT)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
-| [How to Parameterize Asymmetric Quantization Ranges for Quantization-Aware Training]([https://arxiv.org/abs/2306.07215](https://arxiv.org/abs/2404.16898)) | ICLR | 2024 |
+| [How to Parameterize Asymmetric Quantization Ranges for Quantization-Aware Training](https://arxiv.org/abs/2404.16898) | ICLR | 2024 |
 | [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
 | [An Energy-Efficient ECG Processor with Ultra-Low-Parameter Multi-Stage Neural Network and Optimized Power-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/10494674) | TBioCAS | 2024 | PoT |
 | [EQ-Net: Elastic Quantization Neural Networks](https://arxiv.org/abs/2308.07650) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2023 |
