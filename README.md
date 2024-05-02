@@ -36,6 +36,13 @@
 
 </details>
 
+<details>
+<summary><a href="https://ieeexplore.ieee.org/abstract/document/10509805" target="_blank"><strong>A Review of State-of-the-Art Mixed-Precision Neural Network Frameworks</strong></a></summary>
+
+- **Abstract:** Mixed-precision Deep Neural Networks (DNNs) provide an efficient solution for hardware deployment, especially under resource constraints, while maintaining model accuracy. Identifying the ideal bit precision for each layer, however, remains a challenge given the vast array of models, datasets, and quantization schemes, leading to an expansive search space. Recent literature has addressed this challenge, resulting in several promising frameworks. This paper offers a comprehensive overview of the standard quantization classifications prevalent in existing studies. A detailed survey of current mixed-precision frameworks is provided, with an in-depth comparative analysis highlighting their respective merits and limitations. The paper concludes with insights into potential avenues for future research in this domain.
+
+</details>
+
 
 ## :clipboard: Research Papers
 <details>
