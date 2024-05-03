@@ -293,8 +293,13 @@
 ## :herb: Category
 Abbreviation:
 - PoT: Power-of-Two
-- W: Weight
-- A: Activation
+- ### Data-free Quantization (DFQ)
+| Paper                                                        | Venue      | Year | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [ACQ: Improving generative data-free quantization via attention correction](https://doi.org/10.1016/j.patcog.2024.110444) | PR | 2024 |
+| [DFFG: Fast Gradient Iteration for Data-free Quantization](https://papers.bmvc2023.org/0514.pdf) | BMVC | 2023 |
+
+
 ### Post Training Quantization (PTQ)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
@@ -324,6 +329,7 @@ Abbreviation:
 ### Quantization Aware Training (QAT)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [One-Step Forward and Backtrack: Overcoming Zig-Zagging in Loss-Aware Quantization Training](https://arxiv.org/abs/2401.16760) | AAAI | 2024 |
 | [How to Parameterize Asymmetric Quantization Ranges for Quantization-Aware Training](https://arxiv.org/abs/2404.16898) | ICLR | 2024 |
 | [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
 | [Push Quantization-Aware Training Toward Full Precision Performances via Consistency Regularization](https://arxiv.org/abs/2402.13497) | Arxiv | 2024 |
@@ -335,6 +341,7 @@ Abbreviation:
 | [An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/9999511) | TCAS | 2023 | PoT |
 | [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) [![GitHub Repo stars](https://img.shields.io/github/stars/as705d/Enhanced-Quantization)](https://github.com/as705d/Enhanced-Quantization)| IEEE Access | 2023 | PoT |
 | [Adaptive Global Power-of-Two Ternary Quantization Algorithm Based on Unfixed Boundary Thresholds](https://www.mdpi.com/1424-8220/24/1/181) | Sensors | 2023 | PoT |
+| [Transition Rate Scheduling for Quantization-Aware Training](https://arxiv.org/abs/2404.19248) | Arxiv | 2023 |
 | [Overcoming Oscillations in Quantization-Aware Training](https://arxiv.org/abs/2203.11086) [![GitHub Repo stars](https://img.shields.io/github/stars/Qualcomm-AI-research/oscillations-qat)](https://github.com/Qualcomm-AI-research/oscillations-qat)| ICML | 2022 |
 | [Once Quantization-Aware Training: High Performance Extremely Low-bit Architecture Search](https://arxiv.org/abs/2010.04354) [![GitHub Repo stars](https://img.shields.io/github/stars/LaVieEnRoseSMZ/OQA)](https://github.com/LaVieEnRoseSMZ/OQA)| ICCV | 2021 |
 | [Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks](https://arxiv.org/abs/1909.13144) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/APoT_Quantization)](https://github.com/yhhhli/APoT_Quantization)| ICLR | 2020 | PoT |
