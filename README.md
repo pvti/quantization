@@ -316,6 +316,7 @@ Abbreviation:
 | [Leveraging Inter-Layer Dependency for Post -Training Quantization](https://openreview.net/forum?id=L7n7BPTVAr3) | NeurIPS | 2022 |PTQ |
 | [Efficient Adaptive Activation Rounding for Post-Training Quantization](https://arxiv.org/abs/2208.11945) | Arxiv | 2022 |
 | [BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction](https://arxiv.org/abs/2102.05426) [![GitHub Repo stars](https://img.shields.io/github/stars/yhhhli/BRECQ)](https://github.com/yhhhli/BRECQ)| ICLR | 2021 |
+| [Up or Down? Adaptive Rounding for Post-Training Quantization](https://arxiv.org/abs/2004.10568) | ICML | 2020 |
 | [ZeroQ: A Novel Zero Shot Quantization Framework](https://arxiv.org/abs/2001.00281) [![GitHub Repo stars](https://img.shields.io/github/stars/amirgholami/ZeroQ)](https://github.com/amirgholami/ZeroQ)| CVPR | 2020 |
 | [Generative Low-bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603) [![GitHub Repo stars](https://img.shields.io/github/stars/xushoukai/GDFQ)](https://github.com/xushoukai/GDFQ)| ECCV | 2020 |
 | [Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) | CVPR | 2018 |
@@ -325,8 +326,10 @@ Abbreviation:
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
 | [How to Parameterize Asymmetric Quantization Ranges for Quantization-Aware Training](https://arxiv.org/abs/2404.16898) | ICLR | 2024 |
 | [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
+| [Push Quantization-Aware Training Toward Full Precision Performances via Consistency Regularization](https://arxiv.org/abs/2402.13497) | Arxiv | 2024 |
 | [An Energy-Efficient ECG Processor with Ultra-Low-Parameter Multi-Stage Neural Network and Optimized Power-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/10494674) | TBioCAS | 2024 | PoT |
 | [EQ-Net: Elastic Quantization Neural Networks](https://arxiv.org/abs/2308.07650) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2023 |
+| [Overcoming Forgetting Catastrophe in Quantization-Aware Training	](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.html) [![GitHub Repo stars](https://img.shields.io/github/stars/tinganchen/LifeQuant)](https://github.com/tinganchen/LifeQuant)| ICCV | 2023 |
 | [DenseShift: Towards Accurate and Efficient Low-Bit Power-of-Two Quantization](https://arxiv.org/abs/2208.09708) | ICCV | 2023 | PoT |
 | [RUPQ: Improving low-bit quantization by equalizing relative updates of quantization parameters](https://proceedings.bmvc2023.org/307/) [![GitHub Repo stars](https://img.shields.io/github/stars/Valentin-Buchnev/RUPQ)](https://github.com/Valentin-Buchnev/RUPQ)| BMVC | 2023 |
 | [An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/9999511) | TCAS | 2023 | PoT |
