@@ -43,6 +43,13 @@
 
 </details>
 
+<details>
+<summary><a href="https://ieeexplore.ieee.org/abstract/document/10509805" target="_blank"><strong>Model Quantization and Hardware Acceleration for Vision Transformers: A Comprehensive Survey </strong></a> </summary> 
+
+- **Abstract:** Vision Transformers (ViTs) have recently garnered considerable attention, emerging as a promising alternative to convolutional neural networks (CNNs) in several vision-related applications. However, their large model sizes and high computational and memory demands hinder deployment, especially on resource-constrained devices. This underscores the necessity of algorithm-hardware co-design specific to ViTs, aiming to optimize their performance by tailoring both the algorithmic structure and the underlying hardware accelerator to each other's strengths. Model quantization, by converting high-precision numbers to lower-precision, reduces the computational demands and memory needs of ViTs, allowing the creation of hardware specifically optimized for these quantized algorithms, boosting efficiency. This article provides a comprehensive survey of ViTs quantization and its hardware acceleration. We first delve into the unique architectural attributes of ViTs and their runtime characteristics. Subsequently, we examine the fundamental principles of model quantization, followed by a comparative analysis of the state-of-the-art quantization techniques for ViTs. Additionally, we explore the hardware acceleration of quantized ViTs, highlighting the importance of hardware-friendly algorithm design. In conclusion, this article will discuss ongoing challenges and future research paths. We consistently maintain the related open-source materials at [this https URL](https://github.com/DD-DuDa/awesome-vit-quantization-acceleration).
+
+</details>
+
 
 ## :clipboard: Research Papers
 <details>
@@ -335,8 +342,9 @@ Abbreviation:
 | [Push Quantization-Aware Training Toward Full Precision Performances via Consistency Regularization](https://arxiv.org/abs/2402.13497) | Arxiv | 2024 |
 | [An Energy-Efficient ECG Processor with Ultra-Low-Parameter Multi-Stage Neural Network and Optimized Power-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/10494674) | TBioCAS | 2024 | PoT |
 | [EQ-Net: Elastic Quantization Neural Networks](https://arxiv.org/abs/2308.07650) [![GitHub Repo stars](https://img.shields.io/github/stars/xuke225/EQ-Net)](https://github.com/xuke225/EQ-Net)| ICCV | 2023 |
-| [Overcoming Forgetting Catastrophe in Quantization-Aware Training	](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.html) [![GitHub Repo stars](https://img.shields.io/github/stars/tinganchen/LifeQuant)](https://github.com/tinganchen/LifeQuant)| ICCV | 2023 |
+| [Overcoming Forgetting Catastrophe in Quantization-Aware Training](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.html) [![GitHub Repo stars](https://img.shields.io/github/stars/tinganchen/LifeQuant)](https://github.com/tinganchen/LifeQuant)| ICCV | 2023 |
 | [DenseShift: Towards Accurate and Efficient Low-Bit Power-of-Two Quantization](https://arxiv.org/abs/2208.09708) | ICCV | 2023 | PoT |
+| [Oscillation-free Quantization for Low-bit Vision Transformers](https://arxiv.org/abs/2302.02210) [![GitHub Repo stars](https://img.shields.io/github/stars/nbasyl/OFQ)](https://github.com/nbasyl/OFQ)| ICML | 2023 |
 | [RUPQ: Improving low-bit quantization by equalizing relative updates of quantization parameters](https://proceedings.bmvc2023.org/307/) [![GitHub Repo stars](https://img.shields.io/github/stars/Valentin-Buchnev/RUPQ)](https://github.com/Valentin-Buchnev/RUPQ)| BMVC | 2023 |
 | [An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization](https://ieeexplore.ieee.org/abstract/document/9999511) | TCAS | 2023 | PoT |
 | [Non-Zero Grid for Accurate 2-Bit Additive Power-of-Two CNN Quantization](https://ieeexplore.ieee.org/document/10087209) [![GitHub Repo stars](https://img.shields.io/github/stars/as705d/Enhanced-Quantization)](https://github.com/as705d/Enhanced-Quantization)| IEEE Access | 2023 | PoT |
