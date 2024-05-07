@@ -367,6 +367,7 @@ Abbreviation:
 | [Compressed neural architecture utilizing dimensionality reduction and quantization](https://link.springer.com/article/10.1007/s10489-022-03221-z) | Applied Intelligence | 2023 | QAT, PCA, k-means |
 | [Quantization Aware Factorization for Deep Neural Network Compression](https://arxiv.org/abs/2308.04595) | Arxiv | 2023 | PTQ |
 | [Compression of Deep Neural Networks based on quantized tensor decomposition to implement on reconfigurable hardware platforms](https://www.sciencedirect.com/science/article/pii/S089360802200065X) | Neural Networks | 2022 | QAT, PoT |
+| [Ensemble of Tensor Train Decomposition and Quantization Methods for Deep Learning Model Compression](https://ieeexplore.ieee.org/document/9892626) | IJCNN | 2022 |
 | [Quantized Sparse Weight Decomposition for Neural Network Compression](https://arxiv.org/abs/2207.11048) | Arxiv | 2022 |
 | [QTTNet: Quantized tensor train neural networks for 3D object and video recognition](https://www.sciencedirect.com/science/article/pii/S0893608021002306) | Neural Networks | 2021 | QAT |
 
