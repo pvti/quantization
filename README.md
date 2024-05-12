@@ -277,6 +277,7 @@
 - [coremltools](https://apple.github.io/coremltools/docs-guides/source/quantization-overview.html#:~:text=Linear%20quantization%2C%20also%20known%20as,128%5D%2C%20and%20interpolating%20linearly.)
 - [🤗 Optimum Quantization](https://huggingface.co/docs/optimum/en/concept_guides/quantization)
 - [Neural Network Quantization with AI Model Efficiency Toolkit (AIMET)](https://arxiv.org/abs/2201.08442) [![GitHub Repo stars](https://img.shields.io/github/stars/quic/aimet)](https://github.com/quic/aimet)
+- [TensorRT Model Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer) [![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-Model-Optimizer)](https://github.com/NVIDIA/TensorRT-Model-Optimizer)
 
 
 ## :information_source: Terminology
