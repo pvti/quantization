@@ -325,6 +325,7 @@ Abbreviation:
 ### Post Training Quantization (PTQ)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [P2-ViT: Power-of-Two Post-Training Quantization and Acceleration for Fully Quantized Vision Transformer](https://arxiv.org/abs/2405.19915) [![GitHub Repo stars](https://img.shields.io/github/stars/shihuihong214/P2-ViT)](https://github.com/shihuihong214/P2-ViT)| Arxiv | 2024 | PoT |
 | [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| NC | 2024 |
 | [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 | Uniform |
 | [Adaptive Data-Free Quantization](https://arxiv.org/abs/2303.06869) [![GitHub Repo stars](https://img.shields.io/github/stars/hfutqian/AdaDFQ)](https://github.com/hfutqian/AdaDFQ)| CVPR | 2023 |
