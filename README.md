@@ -325,6 +325,7 @@ Abbreviation:
 ### Post Training Quantization (PTQ)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [Outlier-aware Slicing for Post-Training Quantization in Vision Transformer](https://openreview.net/forum?id=Uh5XN9d2J4)| ICML | 2024 | PoT |
 | [P2-ViT: Power-of-Two Post-Training Quantization and Acceleration for Fully Quantized Vision Transformer](https://arxiv.org/abs/2405.19915) [![GitHub Repo stars](https://img.shields.io/github/stars/shihuihong214/P2-ViT)](https://github.com/shihuihong214/P2-ViT)| Arxiv | 2024 | PoT |
 | [Stabilized activation scale estimation for precise Post-Training Quantization](https://www.sciencedirect.com/science/article/pii/S0925231223012432) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/StablePTQ)](https://github.com/hustvl/StablePTQ)| NC | 2024 |
 | [PD-Quant: Post-Training Quantization based on Prediction Difference Metric](https://arxiv.org/abs/2212.07048) [![GitHub Repo stars](https://img.shields.io/github/stars/hustvl/PD-Quant)](https://github.com/hustvl/PD-Quant)| CVPR | 2023 | Uniform |
@@ -352,6 +353,7 @@ Abbreviation:
 ### Quantization Aware Training (QAT)
 | Paper                                                        | Venue      | Year | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ---- |
+| [QuantNAS: Quantization-aware Neural Architecture Search For Efficient Deployment On Mobile Device](https://openaccess.thecvf.com/content/CVPR2024W/CVPR-NAS/html/Gao_QuantNAS_Quantization-aware_Neural_Architecture_Search_For_Efficient_Deployment_On_Mobile_CVPRW_2024_paper.html) | CVPRW | 2024 |
 | [One-Step Forward and Backtrack: Overcoming Zig-Zagging in Loss-Aware Quantization Training](https://arxiv.org/abs/2401.16760) | AAAI | 2024 |
 | [How to Parameterize Asymmetric Quantization Ranges for Quantization-Aware Training](https://arxiv.org/abs/2404.16898) | ICLR | 2024 |
 | [Efficient Quantization-aware Training with Adaptive Coreset Selection](https://arxiv.org/abs/2306.07215) [![GitHub Repo stars](https://img.shields.io/github/stars/HuangOwen/QAT-ACS)](https://github.com/HuangOwen/QAT-ACS)| Arxiv | 2024 |
